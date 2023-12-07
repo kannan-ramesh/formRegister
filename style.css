@@ -1,0 +1,66 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #5a09f1;
+    border-radius: 10px;
+    background-color:white;
+}
+.form .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form .logo img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form label{
+    margin-left: 10px;
+    color: rgb(46, 8, 236);
+    font-weight: 500px;
+    font-size: 20px;
+    padding: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.form input[type="text"],.form input[type="password"]{
+    margin-left: 10px;
+    width: 250px;
+    gap: 20px;
+    background: transparent;
+    font-size: 18px;
+    border: none;
+    outline: 0;
+    border-bottom: 1.5px solid #878585;
+    color: #0c0101;
+}
+.form .gender{
+    margin-left: 10px;
+    font-size: 18px;
+}
+.form .gender input[type="radio"]:checked + .radio::before {
+background-color: #333;
+}
+.btn{
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #5a09f1;
+    border:2px solid rgb(226, 226, 234);
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 17px;
+    font-weight: 500px;
+}
